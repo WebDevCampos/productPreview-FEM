@@ -95,6 +95,9 @@ img {
   border-radius: 0.5rem;
   font-weight: 700;
 }
+.add-to-cart--button:hover {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.4) inset;
+}
 .add-to-cart--button span {
   margin: 0 2rem;
 }
