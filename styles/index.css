@@ -50,7 +50,7 @@ img {
 }
 .product-description {
   line-height: 3rem;
-  margin: 2rem 0;
+  margin: 2rem 0 0;
   font-family: var(--fontMontserrat);
   font-weight: 400;
 }
