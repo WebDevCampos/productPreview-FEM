@@ -41,6 +41,7 @@ img {
 }
 .product-type {
   color: var(--darkGrayishBlue);
+  letter-spacing: 0.2rem;
 }
 .product-name {
   color: var(--veryDarkBlue);
