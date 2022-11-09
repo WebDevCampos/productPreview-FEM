@@ -12,8 +12,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [This very repo](https://your-solution-url.com)
-- Live Site URL: [Hosted by Netlify](https://your-live-site-url.com)
+- Solution URL: [This very repo](https://github.com/WebDevCampos/FrontEndMentor/tree/main/Product%20Preview%20FEMENTOR)
+- Live Site URL: [Hosted by Netlify](https://productpreviewfementor.netlify.app/)
 
 ## My process
 
