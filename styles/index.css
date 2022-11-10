@@ -12,20 +12,21 @@
 body {
   background-color: var(--cream);
   font-family: var(--fontMontserrat);
-  display: grid;
-  place-items: center;
-  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 main {
   display: flex;
   justify-content: space-between;
-  max-width: 65rem;
+  max-width: 80rem;
   background-color: var(--white);
   border-radius: 1rem;
-  margin: 2rem auto;
 }
-img {
-  max-width: 100%;
+.product-image {
+  width: 100%;
   height: 100%;
   border-radius: 1rem 0 0 1rem;
 }
@@ -41,19 +42,21 @@ img {
 }
 .product-type {
   color: var(--darkGrayishBlue);
-  letter-spacing: 0.2rem;
+  letter-spacing: 1rem;
 }
 .product-name {
   color: var(--veryDarkBlue);
-  margin: 1rem 0;
+  margin: 3rem 0 0;
   font-family: var(--fontFrauces);
-  font-size: 3.6rem;
+  font-size: 4.8rem;
 }
 .product-description {
-  line-height: 3rem;
-  margin: 2rem 0 0;
+  line-height: 2;
+  margin: 2rem 0;
+  letter-spacing: 0.3rem;
   font-family: var(--fontMontserrat);
-  font-weight: 400;
+  font-weight: 500;
+  color: var(--darkGrayishBlue);
 }
 .top-content {
   margin-bottom: 1rem;
@@ -62,9 +65,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.top-content {
-  padding: 3rem 0;
+  height: 120px;
 }
 .top-content,
 .bottom-content {
@@ -72,7 +73,7 @@ img {
   margin: 0 auto;
 }
 .actual-price {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   font-family: var(--fontFrauces);
   color: var(--darkCyan);
   display: flex;
@@ -88,7 +89,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   margin: 1rem 0;
   width: 100%;
   background-color: var(--darkCyan);
@@ -101,6 +102,7 @@ img {
 }
 .add-to-cart--button span {
   margin: 0 2rem;
+  font-size: 1.7rem;
 }
 .attribution {
   font-size: 11px;
@@ -113,8 +115,12 @@ img {
   main {
     flex-direction: column;
     max-width: 37.5rem;
+    margin: 2rem 0;
   }
-  img {
+  .product-image {
     border-radius: 1rem 1rem 0 0;
+  }
+  .text-section {
+    padding: 2rem 0;
   }
 }
