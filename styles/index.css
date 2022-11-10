@@ -73,7 +73,7 @@ main {
   margin: 0 auto;
 }
 .actual-price {
-  font-size: 3.8rem;
+  font-size: 4.8rem;
   font-family: var(--fontFrauces);
   color: var(--darkCyan);
   display: flex;
@@ -107,6 +107,7 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 1rem 0;
 }
 .attribution a {
   color: var(--footerLink);
