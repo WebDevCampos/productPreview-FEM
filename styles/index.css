@@ -94,8 +94,13 @@ main {
 .add-to-cart--button:hover {
   box-shadow: 0 0 10rem rgba(0, 0, 0, 0.5) inset;
 }
-.attribution,.attribution a {
+.attribution{
   background: var(--white);
+  padding:.3rem;
+  border-radius:.3rem
+}
+.attribution,.attribution a {
+  
   margin: 2rem 0;
   font-size:clamp(1rem,2vw,2.1vw);
   
